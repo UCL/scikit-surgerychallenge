@@ -4,7 +4,8 @@ We will assume that the python application is containerize using the [scikit-sur
 
 Shared docker image can be downloaded, executed and evalated in two common ways.   
 
-## Docker image shared from Cloud drive
+
+## Docker image shared from Cloud drive
 
 
 ## Docker image shared from Docker registry
