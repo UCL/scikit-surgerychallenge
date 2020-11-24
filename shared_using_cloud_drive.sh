@@ -32,7 +32,7 @@ docker load < $FILENAME
 CONTAINERID=`docker run -dit -v $PWD/input:/input:ro -v $PWD/output weiss_seg/$TEAM`
 
 # Run the container and run the application inside it.
-docker exec $CONTAINERID python segmentation.py
+docker exec $CONTAINERID python app.py
 
 # After analysis copy the results from inside the container to the output folder.
 docker cp $CONTAINERID:/output $PWD/output
