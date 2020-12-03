@@ -25,7 +25,7 @@ When reporting a bug, please include:
 
 ## Design Considerations
 
-1. As few dependencies as possible. Try to stick to standard packages like numpy and pandas etc.
+1. As few dependencies as possible. Try to stick to standard packages.
 2. Discuss extra dependencies with the team and maybe the outcome will be to create a new separate package, where you can be more specific and more modular.
 3. Unit test well, using pytest, with good coverage.
 4. All errors as exceptions rather than return codes.
@@ -37,7 +37,5 @@ When reporting a bug, please include:
 2. Include comments to make your code easily understandable.
 3. Add unit tests for new and modified code
 4. Make sure all existing and new tests pass
-5. Make sure all docstrings have been added
-6. Make sure all dependencies have been added to requirements
-7. Make sure your code works for all required versions of Python
-8. Make sure your code works for all required operating systems
+5. Make sure your code works for all required versions of Bash
+6. Make sure your code works for all required operating systems
